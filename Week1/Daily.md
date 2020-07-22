@@ -2,16 +2,16 @@
 
 - [🏅 7/7(二) 每日任務](#-77二-每日任務)
 	- [問題](#問題)
-	- [Answer](#answer)
+	- [答案](#答案)
 - [🏅 7/8(三) 每日任務](#-78三-每日任務)
 	- [問題](#問題-1)
-	- [Answer](#answer-1)
+	- [答案](#答案-1)
 - [🏅 7/9(四) 每日任務](#-79三-每日任務)
 	- [問題](#問題本日是陷阱題)
-	- [Answer](#answer-2)
+	- [答案](#答案-2)
 - [🏅 7/9(四) 每日任務](#-710五-每日任務)
 	- [問題](#問題-2)
-	- [Answer](#answer-3)
+	- [答案](#答案-3)
 
 # 🏅 7/7(二) 每日任務
 
@@ -38,7 +38,7 @@
 }
 ```
 
-### Answer
+### 答案
 
 根據設定，可以得知寬度為
 70px (width) + 5px (border-right) + 30px (padding) * 2(right&left) = 135px
@@ -81,7 +81,7 @@
 }
 ```
 
-## Answer
+## 答案
 
 根據設定可以得知，
 container 下方有 30px 的 padding，本身的高度為 30px；h1 的行高為 36px、下方的 margin 為 36px，總和為 72px；p 的行高為 24px、下方的 margin 為 24px，又 p 段落有兩個，故 p 段落的高度為 96px，img 有設定 display:block; ，所以高度為 45px。
@@ -109,7 +109,7 @@ a { color:red }
 b { color:blue }
 ```
 
-## Answer
+## 答案
 
 根據設定，在 <a> 標籤中的 class 並沒有被定義，有被定義到樣式的僅有 <a> 的樣式，因此HELLO的字樣顏色應為紅色。
 
@@ -188,7 +188,7 @@ b { color:blue }
 	3. `margin: 0 auto`
 	4. `position:relative`
 
-## Answer
+## 答案
 
 1. 2，1應改為 `<p>hello</p>`，3應改為`<a href="http://www.kimo.com.tw">link</a>`
 2. 2，除`<span></span>`之外皆為區塊標籤

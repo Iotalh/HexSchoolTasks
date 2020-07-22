@@ -2,7 +2,7 @@
 
 - [任務內容](#任務內容)
     - [值日生檢核點](#值日生檢核點)
-- [Answer](#answer)
+- [答案](#答案)
 
 # 任務內容
 
@@ -27,6 +27,6 @@
 8. 不可直接在 HTML 標籤寫樣式，例如 h2、p，因為一個網站頁面有很多個 h2、p 樣式，比較好的做法是用類別與後代選擇器，例如 .skills h2。不過這網站只有一頁倒是還好，但日後在設計多個頁面時，還請留意此細節。
 9. footer、skills 請嘗試不要寫死高度，善用 padding 來產生留白
 
-## Answer
+## 答案
 
 [答案預覽連結](https://iotalh.github.io/HexSchoolTasks/Week1/Main.html)
