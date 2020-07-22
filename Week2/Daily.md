@@ -30,7 +30,7 @@
 
 ## Answer
 
-
+[答案預覽連結](https://iotalh.github.io/HexSchoolTasks/Week2/Daily-714.html)
 
 # 🏅 7/15(三)每日任務
 
@@ -63,6 +63,7 @@
 
 ## Answer
 
+[答案預覽連結](https://iotalh.github.io/HexSchoolTasks/Week2/Daily-715.html)
 
 # 🏅 7/16+17(四+五)每日任務
 
@@ -150,3 +151,5 @@
 ```
 
 ## Answer
+
+[答案預覽連結](https://iotalh.github.io/HexSchoolTasks/Week2/Daily-716.html)
