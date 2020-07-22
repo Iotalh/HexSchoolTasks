@@ -1,22 +1,19 @@
 # 🏅 第一週主線任務
 
-## 流程一：重新撰寫版型作業
+- [任務內容](#任務內容)
+    - [值日生檢核點](#值日生檢核點)
+- [Answer](#answer)
+
+# 任務內容
 
 1. 請上課完後，重新做 [作業設計稿](https://xd.adobe.com/view/849bc67b-1431-4550-5c35-97e1e595632b-f2aa/)，開始進行設計，這設計稿就是您要提交的第二階段作業審核
-2. 可觀看 [作業設計稿 -  線上預覽操作教學](https://hackmd.io/J7ajdobzTlyideAARTLz5Q?view)
+2. 可觀看 [作業設計稿 - 線上預覽操作教學](https://hackmd.io/J7ajdobzTlyideAARTLz5Q?view)
 
 備註：線上網址圖片，這裡六角已經上傳到[圖片空間](https://github.com/hexschool/webLayoutTraining1st)，本次作業圖片都放在 **week1 資料夾**，網址如下，其他以此類推：
 * https://hexschool.github.io/webLayoutTraining1st/week1/photo.png 
 * https://hexschool.github.io/webLayoutTraining1st/week1/line.svg
 
 > 補充：[如果不知道怎麼找到圖片路徑請點我](https://i.imgur.com/O7nQcFm.gif)
-
-## 流程二：提交任務
-
-1. 請透過 [Codepen 上傳作業](https://hackmd.io/P83A7KDOTt65osxHCizL1g?view)
-2. 於[試算表](https://docs.google.com/spreadsheets/d/1c3Pxyc-6PvBOq6x-NLvCqRJyzyaeIrCpQa71oSOJYS8/edit#gid=1953212725
-)中登記繳交狀況
-3. 回程式勇者村 - 任務系統回報，並補上編號：https://rpg.hexschool.com/task/95/show
 
 ## 值日生檢核點
 
