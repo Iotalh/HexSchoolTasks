@@ -1,0 +1,8 @@
+.box{
+	width: 850px;
+	margin: 0 auto;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}

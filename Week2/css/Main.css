@@ -1,0 +1,207 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    color: #3F5D45;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+body{
+    font-family: PingFangTC-Medium;
+    font-weight: 500;
+}
+.container{
+    margin: 0 auto;
+    max-width: 940px;
+}
+.header{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+h1 a{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/logo-all-dark.svg?raw=true");
+    text-indent: 101%;
+	overflow: hidden;
+    white-space: nowrap;
+    background-size: cover;
+    width: 215px;
+    height: 40px;
+}
+.header ul{
+	display: flex;
+	align-items: center;
+}
+.header li a{
+    padding: 10px;
+    margin: 0 10px;
+}
+.rwd-items {
+    display: none;
+}
+.banner{
+    margin-bottom: 60px;
+}
+.main{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.sidebar{
+    width: 30%;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+}
+.sidebar h2{
+    padding: 12px 0;
+    color: #EAF0ED;
+    background-color: #3F5D45;
+    border-bottom: 1px solid #EAF0ED;
+}
+.sidebar li a{
+    display: block;
+    padding: 12px 0;
+    border-left: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED;
+    border-bottom: 1px solid #EAF0ED;
+}
+.sidebar li a:hover{
+    background-color: #EAF0ED;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 67%;
+}
+.list li{
+    position: relative;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.info{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+.info h3{
+    line-height: 20px;
+    width: 50%;
+    padding: 14px;
+    border: 1px solid #EAF0ED;
+    font-weight: 300;
+}
+.info span{
+    line-height: 24px;
+    border-right: 1px solid #EAF0ED;
+    border-bottom: 1px solid #EAF0ED;
+    border-top: 1px solid #EAF0ED;
+    width: 50%;
+    padding: 14px;
+}
+
+.add-cart{
+    text-align: center;
+    font-size: 24px;
+    line-height: 20px;
+    padding: 16px;
+    background-color: #EAF0ED;
+    border: 1px solid #EAF0ED;
+    display: block;
+}
+
+.add-cart:hover{
+    color: white;
+    background-color: #3F5D45;
+    border: 1px solid #3F5D45;
+}
+.fav{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.pickup{
+    background-color: #3F5D45;
+    color: white;
+    writing-mode: vertical-lr;
+    padding: 10px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+.pages{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.pages ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pages li img{
+    display: block;
+}
+.pages li a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.pages .num a:hover{
+    color: white;
+    background-color: #3F5D45;
+}
+.pages li{
+    border: 1px solid #EAF0ED;
+    border-right: none;
+}
+.pages li:last-child {
+    border-right: 1px solid #EAF0ED;
+}
+
+.subscribe{
+    background-color: #3F5D45;
+}
+.contact{
+
+}
+
+@media (max-width: 768px){
+    .sidebar, .list{
+        width: 100%;
+    }
+}
+@media (max-width: 576px){
+    .header{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .rwd-items{
+        display: block;
+    }
+    .list, .pages ul{
+        justify-content: center;
+    }
+    .list li{
+        margin-bottom: 30px;
+    }
+    .header ul{
+        display: none;
+    }
+}
