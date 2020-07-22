@@ -12,7 +12,7 @@
 
 ### HTML
 
-```
+```html
 <div class="box">
 	<img src="https://www.filepicker.io/api/file/tNa2so2RRMuedpc2yydt" alt="logo" width="150">
 </div>
@@ -20,7 +20,7 @@
 
 ### CSS
 
-```
+```css
 .box{
 	background-color: #e8eeea;
 	width: 300px;
@@ -42,7 +42,7 @@
 
 ### HTML
 
-```
+```html
 <div class="box">
 	<img src="https://www.filepicker.io/api/file/tNa2so2RRMuedpc2yydt" alt="logo" width="150">
 	<img src="https://www.filepicker.io/api/file/tNa2so2RRMuedpc2yydt" alt="logo" width="150">
@@ -53,7 +53,7 @@
 
 ### CSS
 
-```
+```css
 .box{
 	width: 850px;
 	margin: 0 auto;
@@ -74,7 +74,7 @@
 
 ### HTML
 
-```
+```html
 <nav class="nav">
 	<img src="https://www.filepicker.io/api/file/tNa2so2RRMuedpc2yydt" alt="logo" width="100">
 	<ul class="nav-list">
@@ -104,7 +104,7 @@
 
 ### CSS
 
-```
+```css
 .nav{
 	background-color: #e8eeea;
 	padding: 0 10px;
