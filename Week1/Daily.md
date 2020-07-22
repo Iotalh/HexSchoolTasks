@@ -10,13 +10,13 @@
 
 ### HTML
 
-```
+```html
 <div class="card"></div>
 ```
 
 ### CSS
 
-```
+```css
 .card{
 	width: 70px;
 	height: 50px;
@@ -40,7 +40,7 @@
 
 ### HTML
 
-```
+```html
 <div class="container">
 	<h1>標題</h1>
 	<p>段落</p>
@@ -51,7 +51,7 @@
 
 ### CSS
 
-```
+```css
 .container{
 	padding: 0 0 30px 0;
 }
@@ -87,13 +87,13 @@ PS：建議藉由小組或公開討論，思考陷阱在哪裡
 
 ### HTML
 
-```
+```html
 <a class="a b">HELLO</a>
 ```
 
 ### CSS
 
-```
+```css
 a { color:red }
 b { color:blue }
 ```
@@ -152,11 +152,11 @@ b { color:blue }
 	4. `line-height:30px`
 9. 此[元素](http://codepen.io/liao/pen/CkFwe)的寬度多少？
 	HTML
-	```
+	```html
 	<div class="box"></div>
 	```
 	CSS
-	```
+	```css
 	.box{
 		width: 50px;
 		padding-left:10px;
