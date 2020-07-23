@@ -5,9 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 }
-.nav li{
-	border: 1px solid black;
-}
+
 .nav h1 a{
 	background-image: url("https://www.filepicker.io/api/file/tNa2so2RRMuedpc2yydt");
 	background-size: 100px;
