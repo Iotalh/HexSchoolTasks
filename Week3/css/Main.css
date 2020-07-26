@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif+TC:wght@700&display=swap');
 
-/* CSS reset */
+/* 部分 CSS reset */
 
 *, *::before, *::after{
     box-sizing: border-box;
