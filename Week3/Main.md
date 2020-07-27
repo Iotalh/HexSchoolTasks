@@ -47,12 +47,12 @@
 3. 甜點類別(`.sidebar`)、甜點清單(`.list`)寬度改為 `100%`，變成滿版設計
 3. 頁碼(`.pages`)置中
 4. 訂閱電子郵件欄位(`.subscribe`)改為垂直置中排版
-5. 甜點清單(`.list`)、電子郵件輸入欄位(`.side-container .email, .side-container .btn`)增加 `margin-top` 增加間隔。
+5. 甜點清單(`.list`)、電子郵件輸入欄位(`.sub-container .email, .sub-container .btn`)增加 `margin-top` 增加間隔。
 
 #### 576px
 
 1. 導覽列(`.header`)顯示漢堡選單、購物車選項(`.rwd-items`)，隱藏原本列出來的選項(`.header ul`)
-2. `.list, .side-container` 設定成置中排版
+2. `.list, .sub-container` 設定成置中排版
 3. 甜點清單(`.list`)每航僅顯示一個甜點
 4. 頁尾隱藏標語(`.contact h4`)，僅留下聯絡資訊
 
