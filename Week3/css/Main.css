@@ -28,6 +28,13 @@ body{
 }
 
 /* 導覽列 */
+.navbar{
+    background-color: rgba(255, 255, 255, 0.98);
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
 
 .header{
     font-size: 16px;
@@ -35,11 +42,6 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
-    background-color: rgba(255, 255, 255, 0.98);
-    z-index: 99;
-    position: sticky;
-    top: 0;
-    left: 0;
 }
 
 h1 a{
@@ -355,9 +357,13 @@ h1 a{
     h1 a{
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logotype-lg-dark.svg);
     }
+    .container{
+        max-width: 375px;
+    }
     .header{
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
-        justify-content: space-around;
+        justify-content: space-between;
+        white-space: nowrap;
     }
     .sidebar, .list{
         width: 100%;
@@ -369,7 +375,6 @@ h1 a{
         justify-content: center;
     }
     .subscribe{
-        flex-wrap: wrap;
         flex-direction: column;
     }
     .sub-container .email, .sub-container .btn{
