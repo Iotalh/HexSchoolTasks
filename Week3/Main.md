@@ -1,4 +1,4 @@
-# 🏅第三週主線任務
+# 🏅 第三週主線任務
 
 - [任務內容](#任務內容)
     - [值日生檢核點](#值日生檢核點)
@@ -28,9 +28,11 @@
 
 ## 助教修改建議
 
-* 第一、二週主線檢核點
-* 網頁是否有 x 軸
-* 斷點設計是否[使用者體驗](https://hackmd.io/@YmcMgo-NSKOqgTGAjl_5tg/ry5tmBcoI/%2FCbWsf8nkT0aBe396Y4KlsQ#%E9%9F%BF%E6%87%89%E5%BC%8F%E4%BD%BF%E7%94%A8%E8%80%85%E9%AB%94%E9%A9%97%E5%BD%B1%E9%9F%B3%E8%A7%80%E5%BF%B5%E8%A3%9C%E5%85%85)
+1. `.container` 在 pc 版時的 `max-width` 是 `940 px;` 在手機版 `768 px` 時的 `max-width` 是 `375 px;`
+`.container` 要記得隨著斷點設定不同的 `max-width;`
+2. `.header` 的 `z-index` 不建議下這麼大的數值，因為其實寫 `z-index: 1;` 就可以羅;
+另外 `header` 建議可以不用使用 `position: sticky;` 因為這樣 pc 版滑到下面 `footer` 的時候會多了上面那一塊感覺有點怪..不過同學嘗試這樣練習看看也是很棒的！
+3. `.subscribe` 在 `(max-width: 768px)` 的 `flex-wrap: wrap;` 可以拿掉
 
 ## 答案
 
