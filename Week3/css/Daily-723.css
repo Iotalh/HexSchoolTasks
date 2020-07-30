@@ -1,65 +1,75 @@
 .nav {
-	background-color: #e8eeea;
-	padding: 0 10px;
-	margin-bottom: 25px;
-	display: flex;
-	justify-content: space-between;
+    background-color: #e8eeea;
+    padding: 0 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.nav h1 a{
-	background-image: url("https://www.filepicker.io/api/file/tNa2so2RRMuedpc2yydt");
-	background-size: 100px;
-	height: 100px;
-	width: 100px;
-	display: block;
-	text-indent: 101%;
-	overflow: hidden;
-	white-space: nowrap;
+.nav h1 a {
+    background-image: url("https://www.filepicker.io/api/file/tNa2so2RRMuedpc2yydt");
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
 }
+
 .nav-list {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
+
 .nav-link {
-	text-decoration: none;
-	color: #00cc99;
-	padding: 5px 10px;
+    text-decoration: none;
+    color: #00cc99;
+    padding: 5px 10px;
 }
+
 .container {
-	width: 800px;
-	margin: 0 auto;
+    width: 800px;
+    margin: 0 auto;
 }
+
 .title {
-	font-size: 20px;
-	font-weight: 500;
-	margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
+
 .card {
-	margin-bottom: 10px;
-	display: flex;
+    margin-bottom: 10px;
+    display: flex;
 }
+
 .card:nth-child(2) {
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
+
 .card:nth-child(2) .card-img {
-	margin-right: 0;
-	margin-left: 5px;
+    margin-right: 0;
+    margin-left: 5px;
 }
+
 .card-img {
-	margin-right: 5px;
+    margin-right: 5px;
 }
+
 .card-body {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .btn {
-	width: 50px;
-	padding: 8px 16px;
-	color: white;
-	background-color: #00cc99;
-	text-decoration: none;
-	display: block;
-	margin-left: auto;
-	text-align: center;
+    width: 50px;
+    padding: 8px 16px;
+    color: white;
+    background-color: #00cc99;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    text-align: center;
 }
