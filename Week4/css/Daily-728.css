@@ -1,0 +1,58 @@
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 0px;
+        top: 200px;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        left: 200px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.wrapper {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.wrapper {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}

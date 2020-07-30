@@ -1,0 +1,14 @@
+.card {
+    width: 300px;
+    height: 300px;
+}
+
+.card-img {
+    text-align: center;
+    background: #e8eeea;
+    transition: transform 0.6s;
+}
+
+.card:hover .card-img {
+    transform: rotate(180deg);
+}

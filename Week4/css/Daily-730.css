@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+
+.list {
+    width: 300px;
+    text-align: center;
+}
+
+.list-title {
+    font-size: 24px;
+    background: #3F5D45;
+    color: #EAF0ED;
+    padding: 16px 0;
+}
+
+.list-item {
+    border: 1px solid #EAF0ED;
+}
+
+.list .active {
+    background: #EAF0ED;
+}
+
+.list-link {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #3F5D45;
+    display: block;
+    padding: 16px 0;
+}
