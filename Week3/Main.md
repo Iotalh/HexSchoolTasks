@@ -2,6 +2,7 @@
 
 - [任務內容](#任務內容)
     - [值日生檢核點](#值日生檢核點)
+    - [助教修改建議](#助教修改建議)
 - [答案](#答案)
 
 # 任務內容
@@ -34,15 +35,15 @@
 另外 `header` 建議可以不用使用 `position: sticky;` 因為這樣 pc 版滑到下面 `footer` 的時候會多了上面那一塊感覺有點怪..不過同學嘗試這樣練習看看也是很棒的！
 3. `.subscribe` 在 `(max-width: 768px)` 的 `flex-wrap: wrap;` 可以拿掉
 
-## 答案
+# 答案
 
 [答案預覽連結](https://iotalh.github.io/HexSchoolTasks/Week3/Main.html)
 
-### 斷點設計
+## 斷點設計
 
 共有 3 個斷點，分別為 768px 、 576px 、 375px
 
-#### 768px
+### 768px
 
 1. 更換較小張的 logo
 2. 調整導覽列(`.header`)項目的左右留白
@@ -51,14 +52,14 @@
 4. 訂閱電子郵件欄位(`.subscribe`)改為垂直置中排版
 5. 甜點清單(`.list`)、電子郵件輸入欄位(`.sub-container .email, .sub-container .btn`)增加 `margin-top` 增加間隔。
 
-#### 576px
+### 576px
 
 1. 導覽列(`.header`)顯示漢堡選單、購物車選項(`.rwd-items`)，隱藏原本列出來的選項(`.header ul`)
 2. `.list, .sub-container` 設定成置中排版
 3. 甜點清單(`.list`)每航僅顯示一個甜點
 4. 頁尾隱藏標語(`.contact h4`)，僅留下聯絡資訊
 
-#### 375px
+### 375px
 
 1. 調整導覽列(`.header`) logo 大小
 2. 調整導覽列(`.header`)項目的留白
