@@ -1,0 +1,6 @@
+@mixin reset-text {
+    font-family: $font-family-sans-serif;
+    font-size: $font-size;
+    color: $text-primary;
+    line-height: $line-height-content;
+}

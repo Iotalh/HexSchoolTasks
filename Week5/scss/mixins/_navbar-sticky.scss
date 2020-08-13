@@ -1,0 +1,8 @@
+@mixin navbar-sticky {
+    background-color: $nav-bgc;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,38 @@
+.banner {
+    @include background-image($banner-checkout-url, auto, 460px, cover);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: $spacing-lg;
+    position: relative;
+    h2 {
+        @include background-image($banner-title-url, 190px, 45px);
+        @include hide-text;
+        margin-bottom: 50px;
+    }
+}
+
+.checked {
+    display: flex;
+    align-items: center;
+    margin-bottom: $spacing-md;
+    .line {
+        border-top: 1px solid $text-primary;
+        width: 59px;
+        transform: translateY(50%) scaleX(1.2);
+    }
+}
+
+.continue-btn {
+    @include btn($text-primary, $text-primary, $hover-bgc-btn, 0, $bgc-secondary);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 14.5px 102px;
+    @include mobile-576 {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+}

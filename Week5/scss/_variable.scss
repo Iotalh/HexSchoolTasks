@@ -1,0 +1,47 @@
+// text-color 
+$text-primary: #3F5D45 !default;
+$text-light: #8DA291 !default;
+$text-secondary:#EAF0ED !default;
+// line-height
+$line-height-title: 1.2;
+$line-height-content: 1.5;
+// font settings
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-size: 16px !default;
+// container max-width
+$container-lg-max-width: 940px !default;
+$container-md-max-width: 768px !default;
+$container-sm-max-width: 568px !default;
+$container-xs-max-width: 375px !default;
+// logo settings
+$logo-url: "../img/logo-all-dark.svg";
+$logo-lg-dark-url: "../img/logotype-lg-dark.svg";
+$logo-sm-dark-url: "../img/logotype-sm-dark.svg";
+$logo-width: 215px !default;
+$logo-height: 40px !default;
+$logo-lg-width: 172px !default;
+$logo-md-width: 117px !default;
+$logo-sm-width: 40px !default;
+// banner settings
+$banner-checkout-url: "../img/checkout-banner.jpg";
+$banner-title-url: "../img/lg-付款成功.svg";
+// slogan settings
+$slogan-footer-height:220px;
+// navbar settings
+$nav-bgc: rgba(255, 255, 255, 0.8);
+// hover color
+$hover-bgc-light: #EAF0ED;
+$hover-bgc-dark: #3F5D45;
+$hover-bgc-btn: rgb(255, 207, 163);
+// primary bgc
+$bgc-primary: #3F5D45 !default;
+$bgc-light: #EAF0ED !default;
+$bgc-secondary:#FFE180 !default;
+// btn settings
+$email-submit-width: 64px;
+$email-submit-height: 56px;
+// spacing
+$spacing-base: 10px;
+$spacing-lg: $spacing-base * 6;
+$spacing-md: $spacing-base * 3;
+$spacing-sm: $spacing-base * 2;

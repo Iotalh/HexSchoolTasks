@@ -1,0 +1,129 @@
+.newsletter {
+    background-color: $bgc-primary;
+    &-email {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: $logo-sm-width;
+            height: $logo-height;
+            @include pad-768 {
+                margin-bottom: $spacing-md;
+            }
+        }
+        label {
+            color: $text-secondary;
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            margin-left: $spacing-sm;
+            @include pad-768 {
+                margin-bottom: $spacing-md;
+            }
+        }
+        input {
+            border: none;
+            outline: none;
+            border-radius: 0;
+            height: 56px;
+            background-color: $bgc-light;
+        }
+        @include pad-768 {
+            flex-direction: column;
+        }
+    }
+}
+
+.sub-container {
+    position: relative;
+}
+
+.email {
+    padding-left: $spacing-lg;
+    width: 316px;
+    @include mobile-375 {
+        width: 251px;
+    }
+    &-icon {
+        position: absolute;
+        left: 20px;
+    }
+    &-submit {
+        @include btn($text-primary, $text-primary, $hover-bgc-btn, 0, $bgc-secondary);
+        width: $email-submit-width;
+        height: $email-submit-height;
+        position: relative;
+        &-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+        }
+    }
+}
+
+.footer {
+    background-color: $bgc-light;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    &-info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h3 a {
+            @include background-image($logo-lg-dark-url);
+            @include hide-text;
+            background-position: left;
+            @include mobile-375 {
+                margin-bottom: $spacing-base;
+            }
+        }
+        ul {
+            @include mobile-375 {
+                margin: $spacing-md 0;
+            }
+        }
+        @include mobile-375 {
+            white-space: nowrap;
+        }
+    }
+    &-social {
+        width: 50%;
+        display: flex;
+        img {
+            width: 32px;
+            margin-right: 8px;
+        }
+        @include mobile-375 {
+            width: 100%;
+            margin-bottom: $spacing-md;
+        }
+    }
+    &-slogan {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        img {
+            height: $slogan-footer-height;
+        }
+        @include mobile-375 {
+            display: none;
+        }
+    }
+    p {
+        width: 50%;
+        text-align: right;
+        font-family: Times;
+        line-height: 1.2rem;
+        margin: auto;
+        @include mobile-375 {
+            width: 100%;
+            text-align: left;
+            white-space: nowrap;
+        }
+    }
+}

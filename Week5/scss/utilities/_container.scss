@@ -1,0 +1,21 @@
+.container {
+    margin: 0 auto;
+    max-width: $container-lg-max-width;
+    @include pad-768 {
+        max-width: $container-md-max-width;
+    }
+    @mixin mobile-576 {
+        max-width: $container-sm-max-width;
+    }
+    @mixin mobile-375 {
+        max-width: $container-xs-max-width;
+    }
+}
+
+.sub-container {
+    display: flex;
+    align-items: center;
+    @mixin mobile-576 {
+        width: 100%;
+    }
+}
