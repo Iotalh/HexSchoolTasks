@@ -240,13 +240,21 @@
 在 all.scss 檔中，載入的檔案順序正確是非常重要的事，請回覆下方的順序需要怎麼修改，以及原因
 
 ```scss
-@import "layout"
-@import "reset"
-@import "variable"
+@import "layout";
+@import "reset";
+@import "variable";
 ```
 
 ## 答案
 
+```scss
+@import "variable";
+@import "reset";
+@import "layout";
+```
+
+變數應該要放在最前面，先宣告完變數後，後面的程式碼才能使用變數
+reset 設定放在 layout 前面，這樣後面的設定才不會又被 reset 覆蓋
 
 
 # 🏅8/7(五)每日任務
@@ -338,3 +346,7 @@ img {
     color: white;
 }
 ```
+
+## 答案
+
+[答案預覽連結](https://iotalh.github.io/HexSchoolTasks/Week5/Daily-87.html)
