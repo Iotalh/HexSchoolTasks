@@ -1,0 +1,155 @@
+.banner-product {
+    @include background-image($banner-index-url, auto, $banner-index-height, cover);
+    position: relative;
+    margin-bottom: 60px;
+    h2 {
+        @include background-image($banner-index-title-url, $banner-index-title-width, $banner-index-title-height);
+        @include hide-text;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    &-category {
+        width: 32%;
+        h2, a {
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            font-weight: bold;
+            padding: 10px 63px;
+        }
+        h2 {
+            background-color: $bgc-primary;
+            color: $text-secondary;
+            text-align: center;
+        }
+        a {
+            @include btn($text-primary, $text-primary, $hover-bgc-light, 0);
+            border: solid $bgc-light;
+            border-width: 1px 1px 0 1px;
+        }
+        li:last-child {
+            border: solid $bgc-light;
+            border-width: 0 0 1px 0;
+        }
+        @include pad-768 {
+            width: 100%;
+        }
+    }
+    &-list {
+        width: 66%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li {
+            position: relative;
+            margin-bottom: 20px;
+            @include pad-768 {
+                margin-bottom: 30px;
+            }
+        }
+        @include pad-768 {
+            width: 100%;
+            margin-top: 60px;
+            justify-content: space-evenly;
+        }
+        @include mobile-576 {
+            justify-content: center;
+        }
+    }
+    &-pickup {
+        background-color: $bgc-primary;
+        color: $text-secondary;
+        writing-mode: vertical-lr;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        padding: 13px 10px;
+        line-height: 1rem;
+        letter-spacing: 4px;
+        font-weight: bold;
+        cursor: default;
+    }
+    &-fav {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+    &-info {
+        display: flex;
+        align-items: center;
+    }
+    &-name, &-price {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 14px 0;
+        cursor: default;
+    }
+    &-name {
+        width: 57.6%;
+        font-weight: lighter;
+        border: 1px solid $bgc-light;
+    }
+    &-price {
+        width: 42.4%;
+        font-weight: bold;
+        border: solid $bgc-light;
+        border-width: 1px 1px 1px 0px;
+    }
+    &-add-cart {
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: $line-height-title;
+        font-weight: bold;
+        padding: 16px;
+        background-color: $bgc-light;
+        border: 1px solid $bgc-light;
+        cursor: pointer;
+        &:hover {
+            background-color: $bgc-primary;
+            color: $text-secondary;
+        }
+    }
+    @include pad-768 {
+        flex-wrap: wrap;
+    }
+}
+
+.pages {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        @include pad-768 {
+            justify-content: center;
+        }
+    }
+    li a {
+        font-size: 1.2rem;
+        line-height: $line-height-title;
+        text-align: center;
+        font-weight: lighter;
+        width: 60px;
+        height: 60px;
+        padding: 16px 0;
+        &:hover {
+            color: $text-secondary;
+            background-color: $bgc-primary;
+            font-weight: bold;
+        }
+    }
+    li {
+        border: 1px solid $bgc-light;
+        border-right: none;
+        &:last-child {
+            border-right: 1px solid $bgc-light;
+        }
+    }
+}

@@ -1,5 +1,5 @@
-.banner {
-    @include background-image($banner-checkout-url, auto, 460px, cover);
+.banner-success {
+    @include background-image($banner-checkout-url, auto, $banner-checkout-height, cover);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,7 +7,7 @@
     margin-bottom: $spacing-lg;
     position: relative;
     h2 {
-        @include background-image($banner-title-url, 190px, 45px);
+        @include background-image($banner-checkout-title-url, $banner-checkout-title-width, $banner-checkout-title-height);
         @include hide-text;
         margin-bottom: 50px;
     }

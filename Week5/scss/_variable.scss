@@ -23,8 +23,16 @@ $logo-lg-width: 172px !default;
 $logo-md-width: 117px !default;
 $logo-sm-width: 40px !default;
 // banner settings
-$banner-checkout-url: "../img/checkout-banner.jpg";
-$banner-title-url: "../img/lg-付款成功.svg";
+$banner-index-height: 496px;
+$banner-checkout-height: 460px;
+$banner-index-url: "https://bit.ly/2Qodh3Z";
+$banner-checkout-url: "https://bit.ly/2P7GhNd";
+$banner-index-title-url: "../img/sm-想吃甜點是不需要理由的.svg";
+$banner-index-title-width: 90px;
+$banner-index-title-height: 327px;
+$banner-checkout-title-url: "../img/lg-付款成功.svg";
+$banner-checkout-title-width: 190px;
+$banner-checkout-title-height: 45px;
 // slogan settings
 $slogan-footer-height:220px;
 // navbar settings

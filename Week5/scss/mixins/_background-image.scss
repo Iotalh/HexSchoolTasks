@@ -1,4 +1,4 @@
-@mixin background-image($image-url, $image-width: 100%, $image-height: auto, $image-size: contain) {
+@mixin background-image($image-url, $image-width: auto, $image-height: auto, $image-size: contain) {
     background-image: url($image-url);
     background-position: center center;
     background-repeat: no-repeat;
