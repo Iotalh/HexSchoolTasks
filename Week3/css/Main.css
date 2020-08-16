@@ -4,31 +4,36 @@
 
 /* 部分 CSS reset */
 
-*, *::before, *::after{
+*, *::before, *::after {
     box-sizing: border-box;
     color: #3F5D45;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
-    height:auto;
+    height: auto;
 }
-a{
+
+a {
     display: block;
     text-decoration: none;
 }
-body{
+
+body {
     font-family: 'Noto Sans TC';
     font-weight: 500;
 }
-.container{
+
+.container {
     margin: 0 auto;
     max-width: 940px;
 }
 
+
 /* 導覽列 */
-.navbar{
+
+.navbar {
     background-color: rgba(255, 255, 255, 0.98);
     z-index: 1;
     position: sticky;
@@ -36,7 +41,7 @@ body{
     left: 0;
 }
 
-.header{
+.header {
     font-size: 16px;
     display: flex;
     justify-content: space-between;
@@ -44,88 +49,100 @@ body{
     padding: 30px 0;
 }
 
-h1 a{
+h1 a {
     background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/logo-all-dark.svg?raw=true");
     background-repeat: no-repeat;
     background-position: center center;
     text-indent: 101%;
-	overflow: hidden;
+    overflow: hidden;
     white-space: nowrap;
     background-size: contain;
     width: 215px;
-    height: 40px;   
+    height: 40px;
 }
-.header ul{
-	display: flex;
-	align-items: center;
+
+.header ul {
+    display: flex;
+    align-items: center;
 }
-.header li a{
+
+.header li a {
     padding: 10px;
     margin: 0 10px;
 }
-.header li a:hover{
+
+.header li a:hover {
     background-color: #EAF0ED;
 }
+
 .rwd-items {
     display: none;
 }
 
+
 /* 主要內容 */
 
-.main{
+.main {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 60px;
 }
 
+
 /* 甜點類別 */
 
-.sidebar{
+.sidebar {
     width: 32%;
     font-size: 24px;
     text-align: center;
     line-height: 40px;
 }
-.sidebar h2{
+
+.sidebar h2 {
     padding: 12px 0;
     color: #EAF0ED;
     line-height: 40px;
     background-color: #3F5D45;
     border-bottom: 1px solid #EAF0ED;
 }
-.sidebar li a{
+
+.sidebar li a {
     padding: 12px 0;
     border-left: 1px solid #EAF0ED;
     border-right: 1px solid #EAF0ED;
     border-bottom: 1px solid #EAF0ED;
 }
-.sidebar li a:hover{
+
+.sidebar li a:hover {
     background-color: #EAF0ED;
 }
 
+
 /* 甜點清單 */
 
-.list{
+.list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 67%;
 }
-.list li{
+
+.list li {
     position: relative;
     margin-bottom: 20px;
 }
 
+
 /* 甜點資訊 */
 
-.info{
+.info {
     display: flex;
     text-align: center;
     font-size: 20px;
 }
 
-.info h3{
+.info h3 {
     line-height: 20px;
     width: 50%;
     padding: 14px 0;
@@ -133,7 +150,7 @@ h1 a{
     font-weight: 300;
 }
 
-.info span{
+.info span {
     line-height: 24px;
     border-right: 1px solid #EAF0ED;
     border-bottom: 1px solid #EAF0ED;
@@ -142,9 +159,10 @@ h1 a{
     padding: 14px;
 }
 
+
 /* 加入購物車 */
 
-.add-cart{
+.add-cart {
     text-align: center;
     font-size: 24px;
     line-height: 20px;
@@ -153,24 +171,26 @@ h1 a{
     border: 1px solid #EAF0ED;
 }
 
-.add-cart:hover{
+.add-cart:hover {
     color: white;
     background-color: #3F5D45;
     border: 1px solid #3F5D45;
 }
 
+
 /* 愛心 icon */
 
-.fav{
+.fav {
     position: absolute;
     right: 20px;
     top: 20px;
     width: 8%;
 }
 
+
 /* 本日精選 */
 
-.pickup{
+.pickup {
     background-color: #3F5D45;
     color: white;
     writing-mode: vertical-lr;
@@ -183,21 +203,24 @@ h1 a{
     top: 0;
 }
 
+
 /* 頁碼 */
 
-.pages{
+.pages {
     margin-top: 10px;
     margin-bottom: 60px;
 }
-.pages ul{
+
+.pages ul {
     display: flex;
     justify-content: flex-end;
 }
 
-.pages li img{
+.pages li img {
     margin: auto;
 }
-.pages li a{
+
+.pages li a {
     width: 60px;
     height: 60px;
     padding: 18px 0;
@@ -206,45 +229,50 @@ h1 a{
     font-weight: 300;
     text-align: center;
 }
-.pages .num a:hover{
+
+.pages .num a:hover {
     color: white;
     background-color: #3F5D45;
 }
-.pages li{
+
+.pages li {
     border: 1px solid #EAF0ED;
     border-right: none;
 }
+
 .pages li:last-child {
     border-right: 1px solid #EAF0ED;
 }
 
+
 /* 頁尾上半部 */
 
-.footer-email{
+.footer-email {
     background-color: #3F5D45;
     padding: 0 30px;
 }
 
+
 /* 訂閱電子郵件 */
 
-.subscribe{
+.subscribe {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
 }
 
-.subscribe img{
+.subscribe img {
     height: 40px;
     width: 40px;
 }
 
-.sub-container{
+.sub-container {
     display: flex;
     align-items: center;
 }
 
-.sub-container label{
+.sub-container label {
     color: #EAF0ED;
     font-size: 24px;
     line-height: 29px;
@@ -252,13 +280,14 @@ h1 a{
     font-weight: 300;
 }
 
-.sub-container input{
+.sub-container input {
     border: none;
     outline: none;
     border-radius: 0;
     height: 56px;
 }
-.sub-container .email{
+
+.sub-container .email {
     background-color: #EAF0ED;
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/mail-24px.png);
     background-repeat: no-repeat;
@@ -266,7 +295,8 @@ h1 a{
     padding-left: 60px;
     width: 316px;
 }
-.sub-container .btn{
+
+.sub-container .btn {
     border: none;
     outline: none;
     border-radius: 0;
@@ -278,34 +308,37 @@ h1 a{
     height: 56px;
     cursor: pointer;
 }
-.sub-container .btn:hover{
+
+.sub-container .btn:hover {
     background-color: rgb(255, 207, 163)
 }
 
+
 /* 頁尾下半部 */
 
-.footer-contact{
+.footer-contact {
     background-color: #EAF0ED;
     padding: 0 30px;
 }
 
+
 /* 聯絡資訊 */
 
-.contact{
+.contact {
     display: flex;
     flex-wrap: wrap;
     padding: 30px 0;
     line-height: 1.5;
 }
 
-.contact-info{
+.contact-info {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.contact-info h3 a{
+.contact-info h3 a {
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logotype-lg-dark.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -314,23 +347,23 @@ h1 a{
     white-space: nowrap;
 }
 
-.contact-social{
+.contact-social {
     display: flex;
     width: 50%;
 }
 
-.contact-social img{
+.contact-social img {
     width: 32px;
     margin-right: 8px;
 }
 
-.contact ul{
+.contact ul {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 30px;
 }
 
-.contact h4{
+.contact h4 {
     width: 50%;
     margin-bottom: 25px;
     padding-top: 0.5em;
@@ -344,7 +377,7 @@ h1 a{
     font-weight: 700;
 }
 
-.contact p{
+.contact p {
     width: 50%;
     text-align: right;
     font-family: Times;
@@ -353,71 +386,71 @@ h1 a{
     margin: auto;
 }
 
-@media (max-width: 768px){
-    h1 a{
+@media (max-width: 768px) {
+    h1 a {
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logotype-lg-dark.svg);
     }
-    .container{
+    .container {
         max-width: 375px;
     }
-    .header{
+    .header {
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
         justify-content: space-between;
         white-space: nowrap;
     }
-    .sidebar, .list{
+    .sidebar, .list {
         width: 100%;
     }
-    .list{
+    .list {
         margin-top: 60px;
     }
-    .pages ul{
+    .pages ul {
         justify-content: center;
     }
-    .subscribe{
+    .subscribe {
         flex-direction: column;
     }
-    .sub-container .email, .sub-container .btn{
+    .sub-container .email, .sub-container .btn {
         margin-top: 30px;
     }
 }
 
-@media (max-width: 576px){
-    .header{
+@media (max-width: 576px) {
+    .header {
         padding: 30px;
     }
-    .rwd-items{
+    .rwd-items {
         display: block;
     }
-    .list, .sub-container{
+    .list, .sub-container {
         justify-content: center;
     }
-    .list li{
+    .list li {
         margin-bottom: 30px;
     }
-    .contact-social, .contact p, .contact-info, .sub-container{
+    .contact-social, .contact p, .contact-info, .sub-container {
         width: 100%;
     }
-    .fav{
+    .fav {
         width: 8%;
     }
-    .header ul, .contact h4{
+    .header ul, .contact h4 {
         display: none;
     }
-    .contact ul, .contact p{
+    .contact ul, .contact p {
         margin-top: 30px;
     }
-    .contact p{
+    .contact p {
         text-align: left;
     }
 }
 
-@media (max-width: 375px){
-    h1 a{
+@media (max-width: 375px) {
+    h1 a {
         width: 114px;
         height: auto;
     }
-    .header{
+    .header {
         justify-content: space-between;
         padding: 15px 30px;
     }

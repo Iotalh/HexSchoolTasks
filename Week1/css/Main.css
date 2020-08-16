@@ -1,29 +1,35 @@
-*, *::before, *::after{
+*, *::before, *::after {
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: -apple-system;
 }
-img{
+
+img {
     display: block;
     max-width: 100%;
 }
-h1{
+
+h1 {
     font-size: 80px;
     line-height: 95px;
     margin-top: 40px;
     padding-bottom: 24px;
     border-bottom: 2px solid black;
 }
-li{
+
+li {
     font-size: 24px;
     line-height: 36px;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
-.title{
+
+.title {
     line-height: 45px;
     text-align: center;
     font-weight: 500;
@@ -31,32 +37,39 @@ li{
     border-bottom: 1px solid #FFFFFF;
     padding-bottom: 8px;
 }
-.en{
+
+.en {
     padding-left: 16px;
     font-size: 24px;
     line-height: 29px;
 }
-.profile-photo img{
+
+.profile-photo img {
     padding: 48px 0;
 }
-.profile{
+
+.profile {
     margin-bottom: 72px;
 }
-.content li{
+
+.content li {
     font-weight: 300;
     margin-bottom: 24px;
 }
-.profile .title{
+
+.profile .title {
     border-bottom: 1px solid #000;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
     font-weight: 600;
 }
-.profile .en{
+
+.profile .en {
     color: #A00404;
 }
-.skill{
+
+.skill {
     background-color: #415165;
     color: #FFFFFF;
     padding-top: 24px;
@@ -67,71 +80,84 @@ li{
     align-items: center;
 }
 
-.skill .title{
+.skill .title {
     width: 83%;
     margin-bottom: 40px;
 }
-.skill .en{
+
+.skill .en {
     font-weight: 600;
 }
-.skill .list{
+
+.skill .list {
     border-left: 1px solid #96A9C4;
-    padding-left: 24px; 
+    padding-left: 24px;
 }
-.list li{
+
+.list li {
     margin-bottom: 13px;
 }
-.work-list{
+
+.work-list {
     margin-left: 24px;
     padding-left: 24px;
     border-left: 1px solid #96A9C4;
 }
-.work-list li{
+
+.work-list li {
     font-weight: 600;
     margin-bottom: 30px;
-
 }
-.rich-content img{
+
+.rich-content img {
     padding: 8px 0;
 }
-.rich-content p{
+
+.rich-content p {
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
 }
-.footer{
+
+.footer {
     background-color: #415165;
     text-align: center;
     padding: 24px 0;
     margin-top: 4px;
     color: white;
 }
-.footer .title{
+
+.footer .title {
     margin-bottom: 16px;
 }
-.footer a{
+
+.footer a {
     color: white;
     text-decoration: none;
 }
-.content-list li{
+
+.content-list li {
     margin-bottom: 16px;
 }
-.link{
+
+.link {
     text-indent: 101%;
-	overflow: hidden;
+    overflow: hidden;
     white-space: nowrap;
     display: inline-block;
     height: 48px;
     width: 48px;
     margin: 4px 12px 24px 12px;
 }
-.fb{
+
+.fb {
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week1/facebook.svg);
 }
-.ig{
+
+.ig {
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week1/instagram-alt.svg);
 }
-.line{
-    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week1/line.svg);
 
+.line {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week1/line.svg);
 }
