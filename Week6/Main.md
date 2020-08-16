@@ -1,4 +1,4 @@
-# 🏅 第五週主線任務
+# 🏅 第六週主線任務
 
 - [任務內容](#任務內容)
     - [值日生檢核點](#值日生檢核點)
@@ -17,4 +17,4 @@
 
 # 答案
 
-[付款成功頁面](https://iotalh.github.io/HexSchoolTasks/Week5/checkout-success.html)
+[付款成功頁面](https://iotalh.github.io/HexSchoolTasks/Week6/Main.html)
