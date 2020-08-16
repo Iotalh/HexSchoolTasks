@@ -17,4 +17,4 @@
 
 # 答案
 
-[付款成功頁面](https://iotalh.github.io/HexSchoolTasks/Week6/Main.html)
+[答案預覽連結](https://iotalh.github.io/HexSchoolTasks/Week6/Main.html)
