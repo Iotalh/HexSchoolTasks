@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     margin-bottom: $spacing-lg;
-    position: relative;
     h2 {
         @include background-image($banner-checkout-title-url, $banner-checkout-title-width, $banner-checkout-title-height);
         @include hide-text;
@@ -24,8 +23,8 @@
     }
 }
 
-.continue-btn {
-    @include btn($text-primary, $text-primary, $hover-bgc-btn, 0, $bgc-secondary);
+.continue-link {
+    @include link($text-primary, $text-primary, $hover-bgc-secondary, 0, $bgc-secondary);
     font-size: 1.5rem;
     font-weight: bold;
     padding: 14.5px 102px;

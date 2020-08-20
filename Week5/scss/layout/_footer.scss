@@ -48,7 +48,7 @@
         left: 20px;
     }
     &-submit {
-        @include btn($text-primary, $text-primary, $hover-bgc-btn, 0, $bgc-secondary);
+        @include btn($text-primary, $text-primary, $hover-bgc-secondary, 0, $bgc-secondary);
         width: $email-submit-width;
         height: $email-submit-height;
         position: relative;
