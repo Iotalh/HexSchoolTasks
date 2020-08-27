@@ -1,0 +1,98 @@
+// colors
+
+$theme-colors: (
+	"primary": #916000,
+	"primary-light": #AC8A46,
+	"secondary-dark": #8D8D8D,
+	"secondary": #707070,
+    "secondary-light": #E0E0E0,
+    "dark": #000000,
+	"gray-light": #848484,
+	"gray": #818A91,
+	"gray-dark": #A5A5A5
+);
+
+$navbar-dark-color: #ffffff;
+
+// spacer
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),    // 4px
+    2: ($spacer * .5),     // 8px
+    3: ($spacer * .75),    // 12px
+    4: $spacer,            // 16px
+    5: ($spacer * 1.25),   // 20px
+	6: ($spacer * 1.75),   // 28px
+	7: ($spacer * 2),      // 32px
+    8: ($spacer * 2.5),    // 40px
+    9: ($spacer * 3.25),   // 52px
+    10: 30px,              // 30px
+    11: ($spacer * 2.25),  // 36px
+    12: ($spacer * 3),     // 48px
+    13: ($spacer * 3.75),  // 60px
+    14: ($spacer * 5),     // 80px
+    15: ($spacer * 1.5)    // 24px
+);
+
+// card
+
+$card-spacer-x: 0;
+$card-border-color: transparent;
+
+// pagination
+
+$pagination-padding-y: 0;
+$pagination-border-color: transparent;
+
+// badge
+
+$badge-font-size:                   12px;
+$badge-font-weight:                 normal;
+
+// button
+
+$btn-border-radius-lg: 30px;
+
+// card
+
+$card-bg: transparent;
+$card-border-radius: 0;
+
+// pagination
+
+$pagination-hover-bg: transparent;
+$pagination-hover-border-color: transparent;
+
+// form
+
+$input-color: #818A91;
+$input-placeholder-color: #818A91;
+$input-plaintext-color: #818A91;
+$custom-control-indicator-checked-bg: #916000;
+
+// headings
+
+$headings-line-height: 1.5;
+
+// logo
+
+$logo-url: "/img/d’Perfume.png";
+$logo-w-url: "/img/d’Perfumew.png";
+$logo-width: 128px;
+$logo-height: 38px;
+
+// subscribe
+
+$subscribe-url: "/img/subscribe.png";
+$subscribe-mobile-url: "/img/subscribe-mobile.png";
+$subscribe-width: auto;
+$subscribe-height: 600px;
+
+// banner
+
+$banner-index-url: "/img/index/banner.png";
+$banner-index-mobile-url: "/img/index/mobile/banner-mobile.png";
+$banner-height: 840px;
+$banner-mobile-height: 480px;

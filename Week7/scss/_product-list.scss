@@ -1,0 +1,7 @@
+.page-link{
+    color: #000000;
+    &:hover{
+        color: theme-color("primary-light");
+        text-decoration: underline;
+    }
+}
