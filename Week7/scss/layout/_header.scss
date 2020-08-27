@@ -2,10 +2,6 @@ h1 {
     font-size: 1.2rem;
 }
 
-.logo {
-    vertical-align: middle;
-}
-
 .navbar {
     &-toggler {
         padding-left: 22px;
@@ -25,13 +21,10 @@ h1 {
     }
 }
 
-.brand-links {
-    margin-bottom: 80px;
-    .nav-link {
-        padding-top: 11.2px;
-        padding-bottom: 11.2px;
-        font-size: 20px;
-    }
+.brand-links .nav-link {
+    padding-top: 11.2px;
+    padding-bottom: 11.2px;
+    font-size: 20px;
 }
 
 header .nav-link {
