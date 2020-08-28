@@ -1,8 +1,7 @@
 .banner {
     &-btn {
         border: 2px solid;
-        font-size: 28px;
-        &:hover{
+        &:hover {
             background-color: rgba( #ffffff, 0.25);
             color: #ffffff;
         }
@@ -33,16 +32,11 @@
     }
 }
 
-.item {
-    &-content {
-        font-size: 20px;
-    }
-    &-btn {
-        border: 2px solid;
-        &:hover{
-            background-color: rgba(#000000, 0.1);
-            color: #000000;
-        }
+.item-btn {
+    border: 2px solid;
+    &:hover {
+        background-color: rgba(#000000, 0.1);
+        color: #000000;
     }
 }
 

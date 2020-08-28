@@ -7,30 +7,13 @@ h1 {
 }
 
 .navbar {
-    &-toggler {
-        padding-left: 22px;
-        padding-right: 22px;
-        &:focus {
+    &-toggler:focus {
             outline: none;
         }
     }
-    &-cart {
-        position: relative;
-    }
     &-num {
         padding: 0.5px 5px;
-        position: absolute;
         left: 70%;
         bottom: 60%;
     }
-}
-
-.brand-links .nav-link {
-    padding-top: 11.2px;
-    padding-bottom: 11.2px;
-    font-size: 20px;
-}
-
-header .nav-link {
-    font-size: 20px;
 }
