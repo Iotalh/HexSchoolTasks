@@ -6,6 +6,11 @@
     }
 }
 
+.page-active {
+    color: theme-color("primary-light");
+    text-decoration: underline;
+}
+
 .modal-open {
     padding: 0 !important;
     margin-right: 0!important;
