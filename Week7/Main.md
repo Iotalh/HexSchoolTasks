@@ -9,8 +9,8 @@
 
 # 答案
 
-[首頁](https://iotalh.github.io/HexSchoolTasks/Week7/index.html)
-[產品列表頁](https://iotalh.github.io/HexSchoolTasks/Week7/product-list.html)
-[產品內頁](https://iotalh.github.io/HexSchoolTasks/Week7/product-info.html)
-[登入頁](https://iotalh.github.io/HexSchoolTasks/Week7/login.html)
-[會員管理](https://iotalh.github.io/HexSchoolTasks/Week7/mypage.html)
+- [首頁](https://iotalh.github.io/HexSchoolTasks/Week7/index.html)
+- [產品列表頁](https://iotalh.github.io/HexSchoolTasks/Week7/product-list.html)
+- [產品內頁](https://iotalh.github.io/HexSchoolTasks/Week7/product-info.html)
+- [登入頁](https://iotalh.github.io/HexSchoolTasks/Week7/login.html)
+- [會員管理](https://iotalh.github.io/HexSchoolTasks/Week7/mypage.html)

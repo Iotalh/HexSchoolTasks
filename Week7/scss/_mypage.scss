@@ -11,6 +11,16 @@
         transform: scaleX(1);
     }
 }
-.mypage-nav .active{
+
+.mypage-nav .active {
     border-bottom: 2px solid #916000;
+}
+
+select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    background: $custom-mypage-select-indicator no-repeat;
+    background-size: $custom-mypage-select-bg-size;
+    background-position: 95% 50%;
 }

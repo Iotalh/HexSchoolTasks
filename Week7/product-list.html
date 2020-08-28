@@ -16,7 +16,7 @@
 
 <body>
 	<!-- Navbar -->
-	<header class="navbar navbar-expand-lg container-fluid p-0 p-md-1">
+	<header class="navbar navbar-expand-lg container-fluid p-0 p-md-1 bg-white sticky-top">
 		<div class="container">
 			<h1 class="m-0 pl-5 pl-md-0">
 				<a class="align-middle navbar-brand" href="index.html">
@@ -50,27 +50,28 @@
 				</li>
 			</ul>
 		</div>
+		<!-- mobile navbar -->
+		<div class="collapse navbar-collapse bg-secondary text-center" id="navbar">
+			<ul class="navbar-nav d-md-none d-flex">
+				<li class="nav-item">
+					<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="product-list.html">Product</a>
+				</li>
+				<li class="nav-item border-top border-light">
+					<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Wishlist</a>
+				</li>
+				<li class="nav-item border-top border-light">
+					<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Blog</a>
+				</li>
+				<li class="nav-item border-top border-light">
+					<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Contact</a>
+				</li>
+				<li class="nav-item border-top border-light">
+					<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="login.html">log in</a>
+				</li>
+			</ul>
+		</div>
 	</header>
-	<!-- mobile navbar -->
-	<div class="collapse navbar-collapse bg-secondary d-md-none text-center" id="navbar">
-		<ul class="navbar-nav d-md-none d-flex">
-			<li class="nav-item">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="product-list.html">Product</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Wishlist</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Blog</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Contact</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="login.html">log in</a>
-			</li>
-		</ul>
-	</div>
+
 	<!-- brands -->
 	<div class="brand-links bg-primary d-none d-md-block container-fluid mb-md-8 mb-lg-14">
 		<div class="container">
@@ -117,11 +118,10 @@
 					<div class="card-body">
 						<h4 class="card-title mb-0">Poppy & Barley</h4>
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
-						<p class="card-text font-weight-light mb-1">NT$1,380
-							<span class="text-secondary-dark pl-2"><del>NT$1,580</del></span>
-						</p>
+						<p class="card-text font-weight-light mb-1">NT$1,380<span
+								class="text-secondary-dark pl-2"><del>NT$1,580</del></span></p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -140,11 +140,10 @@
 					<div class="card-body">
 						<h4 class="card-title mb-0">Poppy & Barley</h4>
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
-						<p class="card-text font-weight-light mb-1">NT$1,380
-							<span class="text-secondary-dark pl-2"><del>NT$1,580</del></span>
-						</p>
+						<p class="card-text font-weight-light mb-1">NT$1,380<span
+								class="text-secondary-dark pl-2"><del>NT$1,580</del></span></p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -165,7 +164,7 @@
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
 						<p class="card-text font-weight-light mb-1">NT$1,380</p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -186,7 +185,7 @@
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
 						<p class="card-text font-weight-light mb-1">NT$1,380</p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -207,11 +206,10 @@
 					<div class="card-body">
 						<h4 class="card-title mb-0">Poppy & Barley</h4>
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
-						<p class="card-text font-weight-light mb-1">NT$1,380
-							<span class="text-secondary-dark pl-2"><del>NT$1,580</del></span>
-						</p>
+						<p class="card-text font-weight-light mb-1">NT$1,380<span
+								class="text-secondary-dark pl-2"><del>NT$1,580</del></span></p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -230,11 +228,10 @@
 					<div class="card-body">
 						<h4 class="card-title mb-0">Poppy & Barley</h4>
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
-						<p class="card-text font-weight-light mb-1">NT$1,380
-							<span class="text-secondary-dark pl-2"><del>NT$1,580</del></span>
-						</p>
+						<p class="card-text font-weight-light mb-1">NT$1,380<span
+								class="text-secondary-dark pl-2"><del>NT$1,580</del></span></p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -255,7 +252,7 @@
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
 						<p class="card-text font-weight-light mb-1">NT$1,380</p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -276,7 +273,7 @@
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
 						<p class="card-text font-weight-light mb-1">NT$1,380</p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -297,11 +294,10 @@
 					<div class="card-body">
 						<h4 class="card-title mb-0">Poppy & Barley</h4>
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
-						<p class="card-text font-weight-light mb-1">NT$1,380
-							<span class="text-secondary-dark pl-2"><del>NT$1,580</del></span>
-						</p>
+						<p class="card-text font-weight-light mb-1">NT$1,380<span
+								class="text-secondary-dark pl-2"><del>NT$1,580</del></span></p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -320,11 +316,10 @@
 					<div class="card-body">
 						<h4 class="card-title mb-0">Poppy & Barley</h4>
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
-						<p class="card-text font-weight-light mb-1">NT$1,380
-							<span class="text-secondary-dark pl-2"><del>NT$1,580</del></span>
-						</p>
+						<p class="card-text font-weight-light mb-1">NT$1,380<span
+								class="text-secondary-dark pl-2"><del>NT$1,580</del></span></p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -345,7 +340,7 @@
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
 						<p class="card-text font-weight-light mb-1">NT$1,380</p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -366,7 +361,7 @@
 						<p class="card-text font-weight-light mb-0">Jo Malone</p>
 						<p class="card-text font-weight-light mb-1">NT$1,380</p>
 						<a href="#" class="card-link"><i class="fas fa-heart"></i></a>
-						<a href="#" class="card-link"><i class="fas fa-shopping-cart"></i></a>
+						<a href="#" class="card-link pl-1"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</div>
@@ -376,10 +371,7 @@
 	<div class="container">
 		<ul class="pagination pagination-lg justify-content-center mb-13">
 			<li class="page-item" aria-current="page">
-				<span class="page-link">
-					1
-					<span class="sr-only">(current)</span>
-				</span>
+				<a class="page-link disabled">1<span class="sr-only">(current)</span></a>
 			</li>
 			<li class="page-item"><a class="page-link" href="#">2</a></li>
 			<li class="page-item"><a class="page-link" href="#">3</a></li>

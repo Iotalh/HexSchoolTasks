@@ -16,7 +16,7 @@
 
 <body>
 	<!-- Navbar -->
-	<header class="navbar navbar-expand-lg container-fluid p-0 p-md-1">
+	<header class="navbar navbar-expand-lg container-fluid p-0 p-md-1 bg-white sticky-top">
 		<div class="container">
 			<h1 class="m-0 pl-5 pl-md-0">
 				<a class="align-middle navbar-brand" href="index.html">
@@ -50,27 +50,27 @@
 				</li>
 			</ul>
 		</div>
+		<!-- mobile navbar -->
+		<div class="collapse navbar-collapse bg-secondary text-center" id="navbar">
+			<ul class="navbar-nav d-md-none d-flex">
+				<li class="nav-item">
+					<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="product-list.html">Product</a>
+				</li>
+				<li class="nav-item border-top border-light">
+					<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Wishlist</a>
+				</li>
+				<li class="nav-item border-top border-light">
+					<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Blog</a>
+				</li>
+				<li class="nav-item border-top border-light">
+					<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Contact</a>
+				</li>
+				<li class="nav-item border-top border-light">
+					<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="login.html">log in</a>
+				</li>
+			</ul>
+		</div>
 	</header>
-	<!-- mobile navbar -->
-	<div class="collapse navbar-collapse bg-secondary d-md-none text-center" id="navbar">
-		<ul class="navbar-nav d-md-none d-flex">
-			<li class="nav-item">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="product-list.html">Product</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Wishlist</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Blog</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Contact</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="login.html">log in</a>
-			</li>
-		</ul>
-	</div>
 	<!-- customize block -->
 	<div class="banner banner-index d-flex align-items-center container-fluid mb-8 mb-md-13">
 		<div class="container">
@@ -85,7 +85,8 @@
 			</div>
 			<div class="row">
 				<div class="col-12 col-md-8 offset-md-2 col-lg-4 offset-lg-7">
-					<a class="banner-btn btn btn-outline-light btn-lg font-weight-bold w-100" href="product-list.html">Shop
+					<a class="banner-btn btn btn-outline-light btn-lg font-weight-bold w-100"
+						href="product-list.html">Shop
 						now</a>
 				</div>
 			</div>
@@ -94,7 +95,7 @@
 	<div class="container mb-8 mb-md-13">
 		<div class="item row align-items-md-center flex-md-row-reverse mb-7 mb-md-0">
 			<div class="col-12 col-md-6 col-lg-6 offset-lg-1 pl-md-0">
-				<img class="item-img mb-2 mb-md-0" src="img/index/item-1.png" alt="product img">
+				<img class="item-img" src="img/index/item-1.png" alt="product img">
 			</div>
 			<div class="col-12 col-md-6 col-lg-4">
 				<h2 class="font-weight-bold">Gabrielle CHANEL</h2>
@@ -106,7 +107,7 @@
 		</div>
 		<div class="item row align-items-md-center mb-7 mb-md-0">
 			<div class="col-12 col-md-6 col-lg-6 pr-md-0">
-				<img class="item-img mb-2 mb-md-0" src="img/index/item-2.png" alt="product img">
+				<img class="item-img" src="img/index/item-2.png" alt="product img">
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 offset-lg-1">
 				<h2 class="font-weight-bold">Five O’clock Au Gingembre</h2>
@@ -118,7 +119,7 @@
 		</div>
 		<div class="item row align-items-md-center flex-md-row-reverse mb-7 mb-md-0">
 			<div class="col-12 col-md-6 offset-md-1 pl-md-0">
-				<img class="item-img mb-2 mb-md-0" src="img/index/item-3.png" alt="product img">
+				<img class="item-img" src="img/index/item-3.png" alt="product img">
 			</div>
 			<div class="col-12 col-md-4">
 				<h2 class="font-weight-bold">CHANEL N°5</h2>
@@ -154,7 +155,7 @@
 					prioritize the
 					most
 					important operations that should be performed immediately.</p>
-				<a class="item-btn btn btn-outline-dark btn-lg font-weight-bold w-100" href="#">Plan a free online
+				<a class="item-btn btn btn-outline-dark btn-lg font-weight-bold py-3 w-100" href="#">Plan a free online
 					training</a>
 			</div>
 		</div>

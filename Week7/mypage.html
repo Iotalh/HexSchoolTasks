@@ -16,7 +16,7 @@
 
 <body>
 	<!-- Navbar -->
-	<header class="navbar navbar-expand-lg container-fluid p-0 p-md-1">
+	<header class="navbar navbar-expand-lg container-fluid p-0 p-md-1 bg-white sticky-top">
 		<div class="container">
 			<h1 class="m-0 pl-5 pl-md-0">
 				<a class="align-middle navbar-brand" href="index.html">
@@ -49,28 +49,29 @@
 						Cart(3)</a>
 				</li>
 			</ul>
+			<!-- mobile navbar -->
+			<div class="collapse navbar-collapse bg-secondary d-md-none text-center" id="navbar">
+				<ul class="navbar-nav d-md-none d-flex">
+					<li class="nav-item">
+						<a class="nav-link text-light py-3 mb-0 font-weight-normal h5"
+							href="product-list.html">Product</a>
+					</li>
+					<li class="nav-item border-top border-light">
+						<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Wishlist</a>
+					</li>
+					<li class="nav-item border-top border-light">
+						<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Blog</a>
+					</li>
+					<li class="nav-item border-top border-light">
+						<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Contact</a>
+					</li>
+					<li class="nav-item border-top border-light">
+						<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="mypage.html">Mypage</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</header>
-	<!-- mobile navbar -->
-	<div class="collapse navbar-collapse bg-secondary d-md-none text-center" id="navbar">
-		<ul class="navbar-nav d-md-none d-flex">
-			<li class="nav-item">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="product-list.html">Product</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Wishlist</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Blog</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="#">Contact</a>
-			</li>
-			<li class="nav-item border-top border-light">
-				<a class="nav-link text-light py-3 mb-0 font-weight-normal h5" href="mypage.html">Mypage</a>
-			</li>
-		</ul>
-	</div>
 	<!-- brands -->
 	<div class="brand-links bg-primary d-none d-md-block container-fluid mb-8 mb-md-5 mb-lg-14">
 		<div class="container">
@@ -132,7 +133,7 @@
 					</div>
 					<div class="form-group row">
 						<label for="gender" class="col-3 col-md-2 col-form-label text-gray text-nowrap">會員性別</label>
-						<div class="col-8 col-md-2">
+						<div class="col-3 col-md-2">
 							<select id="gender" class="form-control">
 								<option selected>女</option>
 								<option>男</option>
@@ -157,19 +158,19 @@
 						<div class="col-8 col-md-7">
 							<div class="form-row mb-2">
 								<div class="col-9 col-md-6">
-									<select id="country" class="custom-select">
+									<select id="country" class="form-control">
 										<option selected>台灣及離島</option>
 									</select>
 								</div>
 							</div>
 							<div class="form-row mb-2">
 								<div class="col-6">
-									<select id="city" class="custom-select">
+									<select id="city" class="form-control">
 										<option selected>高雄市</option>
 									</select>
 								</div>
 								<div class="col-6 text-gray">
-									<select id="area" class="custom-select">
+									<select id="area" class="form-control">
 										<option selected>鹽埕區</option>
 									</select>
 								</div>
@@ -186,7 +187,7 @@
 						<div class="col-8 col-md-7">
 							<div class="form-row mb-2">
 								<div class="col-9 col-md-6">
-									<select id="country" class="custom-select">
+									<select id="country" class="form-control">
 										<option selected>台灣及離島</option>
 										<option>台灣</option>
 										<option>離島</option>
@@ -195,13 +196,13 @@
 							</div>
 							<div class="form-row mb-2">
 								<div class="col-6">
-									<select id="city" class="custom-select">
+									<select id="city" class="form-control">
 										<option selected>高雄市</option>
 										<option>台北市</option>
 									</select>
 								</div>
 								<div class="col-6">
-									<select id="area" class="custom-select">
+									<select id="area" class="form-control">
 										<option selected>鹽埕區</option>
 										<option>信義區</option>
 									</select>
