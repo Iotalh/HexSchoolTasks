@@ -1,7 +1,9 @@
 h1 {
     font-size: 1.2rem;
-    @include hide-text;
-    @include background-image($logo-url, $logo-width, $logo-height);
+    a {
+        @include hide-text;
+        @include background-image($logo-url, $logo-width, $logo-height);
+    }
 }
 
 .navbar {
