@@ -1,10 +1,5 @@
 .subscribe {
     @include background-image($subscribe-mobile-url, auto, $subscribe-height, cover);
-    position: relative;
-    &-content {
-        position: absolute;
-        bottom: 112px;
-    }
     input {
         height: 60px;
         padding-left: 16px;
