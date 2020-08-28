@@ -1,7 +1,13 @@
-.page-link{
+.page-link {
     color: #000000;
-    &:hover{
+    &:hover {
         color: theme-color("primary-light");
         text-decoration: underline;
     }
+}
+
+.modal-open {
+    padding: 0 !important;
+    margin-right: 0!important;
+    overflow-y: auto;
 }
