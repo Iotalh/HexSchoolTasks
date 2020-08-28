@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
 		integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
 		crossorigin="anonymous" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>d’Perfume</title>
 </head>
 
@@ -19,30 +20,33 @@
 	<header class="navbar navbar-expand-lg container-fluid p-0 p-md-1 bg-white sticky-top">
 		<div class="container">
 			<h1 class="m-0 ml-5 ml-md-0">
-				<a class="align-middle navbar-brand" href="index.html">d’Perfume</a>
+				<a class="navbar-brand align-middle" href="index.html">d’Perfume</a>
 			</h1>
 			<a class="text-secondary-dark p-4 ml-auto d-block d-md-none" href="#">
 				<i class="navbar-cart fas fa-shopping-cart"><span
 						class="navbar-num badge badge-pill badge-primary">3</span></i></a>
-			<button class="navbar-toggler my-0 py-2 d-md-none d-block" type="button" data-toggle="collapse"
+			<button class="navbar-toggler py-2 d-md-none d-block my-0 px-4" type="button" data-toggle="collapse"
 				data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
 				<i class="fas fa-bars text-secondary-dark h2 my-auto"></i>
 			</button>
 			<ul class="navbar-nav d-md-flex d-none flex-md-row">
 				<li class="nav-item">
-					<a class="nav-link text-secondary-dark pl-0 pr-7" href="product-list.html"><i
+					<a class="nav-link h5 font-weight-normal text-secondary-dark pl-0 pr-7" href="product-list.html"><i
 							class="fas fa-tshirt"></i> Product</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-secondary-dark pl-0 pr-7" href="mypage.html"><i class="fas fa-user-alt"></i>
+					<a class="nav-link h5 font-weight-normal text-secondary-dark pl-0 pr-7" href="mypage.html"><i
+							class="fas fa-user-alt"></i>
 						Mypage</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-secondary-dark pl-0 pr-7" href="#"><i class="fas fa-heart"></i>
+					<a class="nav-link h5 font-weight-normal text-secondary-dark pl-0 pr-7" href="#"><i
+							class="fas fa-heart"></i>
 						Wishlist</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-secondary-dark pl-0 pr-7" href="#"><i class="fas fa-shopping-cart"></i>
+					<a class="nav-link h5 font-weight-normal text-secondary-dark pl-0 pr-7" href="#"><i
+							class="fas fa-shopping-cart"></i>
 						Cart(3)</a>
 				</li>
 			</ul>
@@ -74,22 +78,22 @@
 			<nav class="navbar navbar-dark col-12 p-0">
 				<ul class="navbar-nav flex-row">
 					<li class="nav-item pr-6">
-						<a class="nav-link" href="#">CHANEL</a>
+						<a class="nav-link h5 font-weight-normal my-auto" href="#">CHANEL</a>
 					</li>
 					<li class="nav-item pr-6">
-						<a class="nav-link" href="#">Jo Malone</a>
+						<a class="nav-link h5 font-weight-normal my-auto" href="#">Jo Malone</a>
 					</li>
 					<li class="nav-item pr-6">
-						<a class="nav-link" href="#">Curology</a>
+						<a class="nav-link h5 font-weight-normal my-auto" href="#">Curology</a>
 					</li>
 					<li class="nav-item pr-6">
-						<a class="nav-link" href="#">Dior</a>
+						<a class="nav-link h5 font-weight-normal my-auto" href="#">Dior</a>
 					</li>
 					<li class="nav-item pr-6">
-						<a class="nav-link" href="#">Chloe</a>
+						<a class="nav-link h5 font-weight-normal my-auto" href="#">Chloe</a>
 					</li>
 					<li class="nav-item pr-6">
-						<a class="nav-link" href="#">ZARA</a>
+						<a class="nav-link h5 font-weight-normal my-auto" href="#">ZARA</a>
 					</li>
 				</ul>
 			</nav>
@@ -98,7 +102,7 @@
 	<!-- customize block -->
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-2">
+			<div class="col-lg-2" data-aos="fade-up">
 				<h5 class="text-gray-light mb-md-6 d-none d-lg-block">會員中心</h5>
 				<ul
 					class="mypage-nav nav flex-lg-column justify-content-between justify-content-md-around justify-content-lg-between my-8 mt-md-0 mb-md-5 mb-lg-0">
@@ -111,24 +115,26 @@
 				</ul>
 			</div>
 			<div class="col-lg-7 order-2 order-lg-1">
-				<h6 class="border-bottom border-gray pb-2">個人資料修改</h6>
-				<form class="mb-12">
+				<h6 class="border-bottom border-gray pb-2" data-aos="fade-up">個人資料修改</h6>
+				<form class="mb-12" data-aos="fade-up">
 					<div class="form-group row">
 						<label for="userAccount"
-							class="col-3 col-md-2 col-form-label text-gray text-nowrap">會員帳號</label>
+							class="col-4 col-sm-3 col-md-2 col-form-label text-gray text-nowrap">會員帳號</label>
 						<div class="col-8 col-md-7">
 							<input type="text" readonly class="form-control-plaintext" id="userAccount"
 								value="email@example.com">
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="username" class="col-3 col-md-2 col-form-label text-gray text-nowrap">會員姓名</label>
+						<label for="username"
+							class="col-4 col-sm-3 col-md-2 col-form-label text-gray text-nowrap">會員姓名</label>
 						<div class="col-8 col-md-7">
 							<input type="text" class="form-control" id="username">
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="gender" class="col-3 col-md-2 col-form-label text-gray text-nowrap">會員性別</label>
+						<label for="gender"
+							class="col-4 col-sm-3 col-md-2 col-form-label text-gray text-nowrap">會員性別</label>
 						<div class="col-3 col-md-2">
 							<select id="gender" class="form-control">
 								<option selected>女</option>
@@ -137,20 +143,22 @@
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="email" class="col-3 col-md-2 col-form-label text-gray text-nowrap">電子信箱</label>
+						<label for="email"
+							class="col-4 col-sm-3 col-md-2 col-form-label text-gray text-nowrap">電子信箱</label>
 						<div class="col-8 col-md-7">
 							<input type="email" class="form-control" id="email" placeholder="email@example.com">
 						</div>
 					</div>
 					<div class="form-group row">
 						<label for="userPhoneNumber"
-							class="col-3 col-md-2 col-form-label text-gray text-nowrap">手機號碼</label>
+							class="col-4 col-sm-3 col-md-2 col-form-label text-gray text-nowrap">手機號碼</label>
 						<div class="col-8 col-md-7">
 							<input type="number" class="form-control" id="userPhoneNumber">
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="address" class="col-3 col-md-2 col-form-label text-gray text-nowrap">聯絡地址</label>
+						<label for="address"
+							class="col-4 col-sm-3 col-md-2 col-form-label text-gray text-nowrap">聯絡地址</label>
 						<div class="col-8 col-md-7">
 							<div class="form-row mb-2">
 								<div class="col-9 col-md-6">
@@ -179,7 +187,8 @@
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="address" class="col-3 col-md-2 col-form-label text-gray text-nowrap">配送地址</label>
+						<label for="post-address"
+							class="col-4 col-sm-3 col-md-2 col-form-label text-gray text-nowrap">配送地址</label>
 						<div class="col-8 col-md-7">
 							<div class="form-row mb-2">
 								<div class="col-9 col-md-6">
@@ -204,44 +213,46 @@
 									</select>
 								</div>
 							</div>
-							<input type="text" class="col-md-12 form-control" id="address" placeholder="請輸入地址">
+							<input type="text" class="col-md-12 form-control" id="post-address" placeholder="請輸入地址">
 						</div>
 					</div>
 					<div class="form-group row">
-						<div class="offset-3 offset-md-2 col-6 col-md-4">
+						<div class="offset-4 offset-sm-3 offset-md-2 col-6 col-md-4">
 							<button type="submit" class="btn btn-primary w-100 m-0">確定修改</button>
 						</div>
 					</div>
 				</form>
-				<h6 class="border-bottom border-gray pb-2 mb-4">修改密碼</h6>
-				<form class="mb-md-8 mb-lg-13">
+				<h6 class="border-bottom border-gray pb-2 mb-4" data-aos="fade-up">修改密碼</h6>
+				<form class="mb-md-8 mb-lg-13" data-aos="fade-up">
 					<div class="form-group row">
-						<label for="oldpw" class="col-3 col-md-2 col-form-label text-gray text-nowrap">舊密碼</label>
+						<label for="oldpw"
+							class="col-4 col-sm-3 col-md-2 col-form-label text-gray text-nowrap">舊密碼</label>
 						<div class="col-8 col-md-7">
 							<input type="password" class="form-control" id="oldpw">
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="newpw" class="col-3 col-md-2 col-form-label text-gray text-nowrap">新密碼</label>
+						<label for="newpw"
+							class="col-4 col-sm-3 col-md-2 col-form-label text-gray text-nowrap">新密碼</label>
 						<div class="col-8 col-md-7">
 							<input type="password" class="form-control" id="newpw">
 						</div>
 					</div>
 					<div class="form-group row">
 						<label for="newpw-check"
-							class="col-3 col-md-2 col-form-label text-gray text-nowrap">確認新密碼</label>
+							class="col-4 col-sm-3 col-md-2 col-form-label text-gray text-nowrap">確認新密碼</label>
 						<div class="col-8 col-md-7">
 							<input type="password" class="form-control" id="newpw-check">
 						</div>
 					</div>
 					<div class="form-group row">
-						<div class="offset-3 offset-md-2 col-6 col-md-4">
+						<div class="offset-4 offset-sm-3 offset-md-2 col-6 col-md-4">
 							<button type="submit" class="btn btn-primary w-100 m-0">變更密碼</button>
 						</div>
 					</div>
 				</form>
 			</div>
-			<div class="col-lg-3 order-1 order-lg-2 mb-8 mb-lg-0">
+			<div class="col-lg-3 order-1 order-lg-2 mb-8 mb-lg-0" data-aos="fade-up">
 				<div class="d-flex align-items-center mb-15">
 					<i class="fas fa-user-alt align-middle"></i>
 					<h6 class="text-gray text-nowrap font-weight-normal mb-0 ml-2">會員編碼</h6>
@@ -272,28 +283,29 @@
 		</div>
 	</div>
 	<!-- footer -->
-	<footer class="bg-primary container-fluid px-0 py-4">
+	<footer class="container-fluid bg-primary px-0 py-4">
 		<div class="container d-flex justify-content-between align-items-center">
-			<a class="align-middle navbar-brand" href="index.html">
+			<a class="navbar-brand align-middle" href="index.html">
 				<img src="img/d’Perfumew.png" srcset="img/d’Perfumew.png 1x, img/d’Perfumew@2x.png 2x">
 				<span class="d-none">d’Perfume</span>
 			</a>
 			<p class="text-white my-auto ml-1"><small>© 2020. All Rights Reserved.</small></p>
-			<nav class="navbar navbar-dark p-0 d-none d-md-block ml-auto">
+			<nav class="navbar navbar-dark d-none d-md-block p-0 ml-auto">
 				<ul class="navbar-nav flex-row">
-					<li class="footer-item nav-item">
-						<a class="footer-link nav-link pl-11" href="product-list.html">Product</a>
+					<li class="nav-item">
+						<a class="nav-link h5 font-weight-normal pl-11" href="product-list.html">Product</a>
 					</li>
-					<li class="footer-item nav-item">
-						<a class="footer-link nav-link pl-11" href="#">Blog</a>
+					<li class="nav-item">
+						<a class="nav-link h5 font-weight-normal pl-11" href="#">Blog</a>
 					</li>
-					<li class="footer-item nav-item">
-						<a class="footer-link nav-link pl-11" href="#">Contact</a>
+					<li class="nav-item">
+						<a class="nav-link h5 font-weight-normal pl-11" href="#">Contact</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
 	</footer>
+	<!-- bootstrap -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 		crossorigin="anonymous"></script>
@@ -303,6 +315,32 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
 		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 		crossorigin="anonymous"></script>
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			// Global settings:
+			disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+			startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+			initClassName: 'aos-init', // class applied after initialization
+			animatedClassName: 'aos-animate', // class applied on animation
+			useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+			disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+			debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+			throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+			// Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+			offset: 10, // offset (in px) from the original trigger point
+			delay: 0, // values from 0 to 3000, with step 50ms
+			duration: 400, // values from 0 to 3000, with step 50ms
+			easing: 'ease', // default easing for AOS animations
+			once: true, // whether animation should happen only once - while scrolling down
+			mirror: false, // whether elements should animate out while scrolling past them
+			anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+		});
+	</script>
 </body>
 
 </html>

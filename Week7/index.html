@@ -11,38 +11,42 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
 		integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
 		crossorigin="anonymous" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>d’Perfume</title>
 </head>
 
 <body>
 	<!-- Navbar -->
-	<header class="navbar navbar-expand-lg container-fluid p-0 p-md-1 bg-white sticky-top">
+	<header class="navbar navbar-expand-lg container-fluid sticky-top bg-white p-0 p-md-1">
 		<div class="container">
 			<h1 class="m-0 ml-5 ml-md-0">
-				<a class="align-middle navbar-brand" href="index.html">d’Perfume</a>
+				<a class="navbar-brand align-middle" href="index.html">d’Perfume</a>
 			</h1>
-			<a class="text-secondary-dark p-4 ml-auto d-block d-md-none" href="#">
-				<i class="navbar-cart fas fa-shopping-cart"><span
-						class="navbar-num badge badge-pill badge-primary">3</span></i></a>
-			<button class="navbar-toggler my-0 py-2 d-md-none d-block" type="button" data-toggle="collapse"
+			<a class="text-secondary-dark d-block d-md-none p-4 ml-auto" href="#">
+				<i class="fas fa-shopping-cart position-relative"><span
+						class="navbar-num badge badge-pill badge-primary position-absolute">3</span></i></a>
+			<button class="navbar-toggler py-2 d-md-none d-block my-0 px-4" type="button" data-toggle="collapse"
 				data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
 				<i class="fas fa-bars text-secondary-dark h2 my-auto"></i>
 			</button>
 			<ul class="navbar-nav d-md-flex d-none flex-md-row">
 				<li class="nav-item">
-					<a class="nav-link text-secondary-dark pl-0 pr-7" href="product-list.html"><i
+					<a class="nav-link h5 font-weight-normal text-secondary-dark pl-0 pr-7" href="product-list.html"><i
 							class="fas fa-tshirt"></i> Product</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-secondary-dark pl-0 pr-7" href="login.html"><i class="fas fa-user-alt"></i>
+					<a class="nav-link h5 font-weight-normal text-secondary-dark pl-0 pr-7" href="login.html"><i
+							class="fas fa-user-alt"></i>
 						log in </a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-secondary-dark pl-0 pr-7" href="#"><i class="fas fa-heart"></i>
+					<a class="nav-link h5 font-weight-normal text-secondary-dark pl-0 pr-7" href="#"><i
+							class="fas fa-heart"></i>
 						Wishlist</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-secondary-dark pl-0 pr-7" href="#"><i class="fas fa-shopping-cart"></i>
+					<a class="nav-link h5 font-weight-normal text-secondary-dark pl-0 pr-7" href="#"><i
+							class="fas fa-shopping-cart"></i>
 						Cart(3)</a>
 				</li>
 			</ul>
@@ -69,7 +73,7 @@
 		</div>
 	</header>
 	<!-- customize block -->
-	<div class="banner banner-index d-flex align-items-center container-fluid mb-8 mb-md-13">
+	<div class="banner banner-index d-flex align-items-center container-fluid mb-8 mb-md-13" data-aos="fade-right">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-8 offset-md-2 col-lg-5 offset-lg-7">
@@ -82,53 +86,52 @@
 			</div>
 			<div class="row">
 				<div class="col-12 col-md-8 offset-md-2 col-lg-4 offset-lg-7">
-					<a class="banner-btn btn btn-outline-light btn-lg font-weight-bold w-100"
-						href="product-list.html">Shop
+					<a class="banner-btn btn btn-outline-light btn-lg h3 w-100" href="product-list.html">Shop
 						now</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="container mb-8 mb-md-13">
-		<div class="item row no-gutters align-items-md-center flex-md-row-reverse mb-7 mb-md-0">
+		<div class="row no-gutters align-items-md-center flex-md-row-reverse mb-7 mb-md-0" data-aos="fade-left">
 			<div class="col-12 col-md-6 col-lg-6 offset-lg-1">
-				<img class="item-img" src="img/index/item-1.png" alt="product img">
+				<img src="img/index/item-1.png" alt="product img">
 			</div>
 			<div class="col-12 col-md-6 col-lg-4">
 				<h2 class="font-weight-bold">Gabrielle CHANEL</h2>
-				<p class="item-content font-weight-light mb-2 mb-md-4">
+				<p class="h5 font-weight-light mb-2 mb-md-4">
 					全新嗅覺體驗，花香四溢、明亮馥郁。<br>結合茉莉、依蘭依蘭、橙花和最迷人的格拉斯晚香玉之花香，呈現出夢幻花香氣息。 極具女性特質的香奈兒嘉柏麗香水，專為光芒四射的她而生。
 				</p>
 				<a class="h6" href="#">查看更多</a>
 			</div>
 		</div>
-		<div class="item row no-gutters align-items-md-center mb-7 mb-md-0">
+		<div class="row no-gutters align-items-md-center mb-7 mb-md-0" data-aos="fade-right">
 			<div class="col-12 col-md-6 col-lg-6">
-				<img class="item-img" src="img/index/item-2.png" alt="product img">
+				<img src="img/index/item-2.png" alt="product img">
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 offset-lg-1">
 				<h2 class="font-weight-bold">Five O’clock Au Gingembre</h2>
-				<p class="item-content font-weight-light mb-2 mb-md-4">
+				<p class="h5 font-weight-light mb-2 mb-md-4">
 					生薑與溫醇的肉桂香、紅糖的香甜摻和成一氣，溫暖微辛的氣息反倒形成一股輕煙氤氳開來，還帶點微微煙醺感漫溢在整個鼻息之間，細聞之下,又還有溫溫淡淡的木香，溫和而暖心。
 				</p>
 				<a class="h6" href="#">查看更多</a>
 			</div>
 		</div>
-		<div class="item row no-gutters align-items-md-center flex-md-row-reverse mb-7 mb-md-0">
+		<div class="row no-gutters align-items-md-center flex-md-row-reverse mb-7 mb-md-0" data-aos="fade-left">
 			<div class="col-12 col-md-6 offset-md-1">
-				<img class="item-img" src="img/index/item-3.png" alt="product img">
+				<img src="img/index/item-3.png" alt="product img">
 			</div>
 			<div class="col-12 col-md-4">
 				<h2 class="font-weight-bold">CHANEL N°5</h2>
-				<p class="item-content font-weight-light mb-2 mb-md-4">
+				<p class="h5 font-weight-light mb-2 mb-md-4">
 					N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。
 				</p>
 				<a class="h6" href="#">查看更多</a>
 			</div>
 		</div>
-		<div class="item row no-gutters align-items-lg-center">
+		<div class="row no-gutters align-items-lg-center" data-aos="fade-right">
 			<div class="col-12 col-md-6 col-lg-6">
-				<img class="item-img mx-auto mx-lg-0" src="img/index/item-4.png" alt="product img">
+				<img class="mx-auto mx-lg-0" src="img/index/item-4.png" alt="product img">
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 offset-lg-1">
 				<h4 class="font-weight-bold">1.<br>Levels of Preventive Maintenance Compliance</h4>
@@ -157,10 +160,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid py-7 py-md-8 mb-13 bg-secondary-light">
+	<div class="container-fluid bg-secondary-light py-7 py-md-8 mb-13" data-aos="fade-down">
 		<div class="container">
-			<div class="row">
-				<div class="col-12 col-md-4 mb-7 mb-md-0">
+			<ul class="row list-unstyled">
+				<li class="col-12 col-md-4 mb-7 mb-md-0">
 					<div class="card">
 						<picture>
 							<source srcset="img/index/card-1.png, img/index/card-1@2x.png 2x"
@@ -178,8 +181,8 @@
 							</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-4 mb-7 mb-md-0">
+				</li>
+				<li class="col-12 col-md-4 mb-7 mb-md-0">
 					<div class="card">
 						<picture>
 							<source srcset="img/index/card-2.png, img/index/card-2@2x.png 2x"
@@ -196,8 +199,8 @@
 							</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-4 mb-1 mb-md-0">
+				</li>
+				<li class="col-12 col-md-4 mb-1 mb-md-0">
 					<div class="card">
 						<div class="position-relative">
 							<picture>
@@ -209,7 +212,7 @@
 								<img src="img/index/card-3.png" class="card-img-top" alt="product img">
 							</picture>
 							<div class="sold-out position-absolute w-100 h-100">
-								<h4 class="text-white position-absolute">Sold out</h4>
+								<h4 class="position-absolute text-white">Sold out</h4>
 							</div>
 						</div>
 						<div class="card-body">
@@ -218,17 +221,17 @@
 							<p class="card-text font-weight-light">NT$1,580</p>
 						</div>
 					</div>
-				</div>
-			</div>
+				</li>
+			</ul>
 		</div>
 	</div>
-	<div class="container mb-8 mb-md-13">
+	<div class="container mb-8 mb-md-13" data-aos="fade-up">
 		<div class="row align-items-md-center">
 			<div class="col-12 col-md-6 col-lg-8">
 				<img class="mb-2 mb-md-0" src="img/index/recycling.png" alt="product recycling">
 			</div>
 			<div class="col-12 col-md-6 col-lg-4">
-				<h2 class="mb-0 font-weight-bold">Bottle-Recycling</h2>
+				<h2 class="font-weight-bold mb-0">Bottle-Recycling</h2>
 				<h5 class="font-weight-light mb-2 mb-md-4">Recycle your used empty bottles and be rewarded!</h5>
 				<p class="font-weight-light mb-2 mb-md-0">
 					For the past 10 years, we have collected over 800,000 bottles through Empty Bottle Recycling
@@ -241,17 +244,18 @@
 		</div>
 	</div>
 	<!-- subscribe -->
-	<div class="subscribe container-fluid d-flex justify-content-center justify-content-md-start align-items-end">
+	<div class="subscribe container-fluid d-flex justify-content-center justify-content-md-start align-items-end" data-aos="fade">
 		<div class="container mb-16">
 			<div class="subscribe-content">
 				<h2 class="text-secondary-dark mb-5">記得<br>訂閱以獲取更多資訊！</h2>
 				<div class="input-group">
 					<form>
 						<div class="input-group">
-							<input class="form-control border-primary" type="email" placeholder="Your email address"
-								aria-label="Your email address" aria-describedby="Subscribe">
+							<input class="form-control border-primary pl-4" type="email"
+								placeholder="Your email address" aria-label="Your email address"
+								aria-describedby="Subscribe">
 							<div class="input-group-append">
-								<button class="btn btn-primary" type="submit" id="Subscribe">Subscribe</button>
+								<button class="btn btn-primary px-4" type="submit" id="Subscribe">Subscribe</button>
 							</div>
 						</div>
 					</form>
@@ -260,23 +264,23 @@
 		</div>
 	</div>
 	<!-- footer -->
-	<footer class="bg-primary container-fluid px-0 py-4">
+	<footer class="container-fluid bg-primary px-0 py-4">
 		<div class="container d-flex justify-content-between align-items-center">
-			<a class="align-middle navbar-brand" href="index.html">
+			<a class="navbar-brand align-middle" href="index.html">
 				<img src="img/d’Perfumew.png" srcset="img/d’Perfumew.png 1x, img/d’Perfumew@2x.png 2x">
 				<span class="d-none">d’Perfume</span>
 			</a>
 			<p class="text-white my-auto ml-1"><small>© 2020. All Rights Reserved.</small></p>
-			<nav class="navbar navbar-dark p-0 d-none d-md-block ml-auto">
+			<nav class="navbar navbar-dark d-none d-md-block p-0 ml-auto">
 				<ul class="navbar-nav flex-row">
-					<li class="footer-item nav-item">
-						<a class="footer-link nav-link pl-11" href="product-list.html">Product</a>
+					<li class="nav-item">
+						<a class="nav-link h5 font-weight-normal pl-11" href="product-list.html">Product</a>
 					</li>
-					<li class="footer-item nav-item">
-						<a class="footer-link nav-link pl-11" href="#">Blog</a>
+					<li class="nav-item">
+						<a class="nav-link h5 font-weight-normal pl-11" href="#">Blog</a>
 					</li>
-					<li class="footer-item nav-item">
-						<a class="footer-link nav-link pl-11" href="#">Contact</a>
+					<li class="nav-item">
+						<a class="nav-link h5 font-weight-normal pl-11" href="#">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -292,6 +296,32 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
 		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 		crossorigin="anonymous"></script>
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			// Global settings:
+			disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+			startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+			initClassName: 'aos-init', // class applied after initialization
+			animatedClassName: 'aos-animate', // class applied on animation
+			useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+			disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+			debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+			throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+			// Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+			offset: 10, // offset (in px) from the original trigger point
+			delay: 0, // values from 0 to 3000, with step 50ms
+			duration: 400, // values from 0 to 3000, with step 50ms
+			easing: 'ease', // default easing for AOS animations
+			once: true, // whether animation should happen only once - while scrolling down
+			mirror: false, // whether elements should animate out while scrolling past them
+			anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+		});
+	</script>
 </body>
 
 </html>
