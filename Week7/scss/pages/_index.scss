@@ -1,11 +1,4 @@
 .banner {
-    &-btn {
-        border: 2px solid;
-        &:hover {
-            background-color: rgba( #ffffff, 0.25);
-            color: #ffffff;
-        }
-    }
     &-title {
         font-size: 40px;
     }
@@ -29,14 +22,6 @@
     }
     .banner-index {
         @include background-image($banner-index-mobile-url, 100%, $banner-mobile-height, cover);
-    }
-}
-
-.item-btn {
-    border: 2px solid;
-    &:hover {
-        background-color: rgba(#000000, 0.1);
-        color: #000000;
     }
 }
 

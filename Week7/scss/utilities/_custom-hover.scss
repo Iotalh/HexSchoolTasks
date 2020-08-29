@@ -1,0 +1,21 @@
+.hover-primary {
+    &::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid #916000;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+        transform-origin: 0% 50%;
+    }
+    &:hover:after {
+        transform: scaleX(1);
+    }
+}
+
+.page-link{
+    color: #000000;
+    &:hover {
+        color: theme-color("primary-light");
+        text-decoration: underline;
+    }
+}

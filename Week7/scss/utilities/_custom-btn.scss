@@ -1,0 +1,16 @@
+.btn-border-primary {
+    @include button-variant(#ffffff, #916000, #916000, #916000);
+    @include button-outline-variant(#916000, #ffffff);
+}
+
+.btn-border-white {
+    @include button-variant(transparent, #ffffff, rgba( #ffffff, 0.25), #ffffff);
+    @include button-outline-variant(#ffffff, #ffffff, rgba( #ffffff, 0.25));
+    border: 2px solid;
+}
+
+.btn-border-black {
+    @include button-variant(transparent, #000000, rgba( #000000, 0.1), #000000);
+    @include button-outline-variant(#000000, #000000, rgba( #000000, 0.1));
+    border: 2px solid;
+}

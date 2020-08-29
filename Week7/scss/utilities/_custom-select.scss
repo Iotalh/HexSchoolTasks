@@ -1,0 +1,8 @@
+select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    background: $custom-mypage-select-indicator no-repeat;
+    background-size: $custom-mypage-select-bg-size;
+    background-position: 95% 50%;
+}
