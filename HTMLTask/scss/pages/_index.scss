@@ -1,0 +1,48 @@
+.banner {
+    margin: 0 auto;
+    @include background-image($banner-url, 100%, $banner-height, cover);
+}
+
+.banner-rect {
+    background-color: rgba(2, 2, 2, 0.149);
+}
+
+.link-border {
+    position: relative;
+    z-index: 1;
+}
+
+.link-border::before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    bottom: 20%;
+    height: 60%;
+    width: 1px;
+    border-right: 1px solid #cccccc;
+}
+
+.card {
+    min-height: 325px;
+}
+
+.card-img-top {
+    min-height: 140px;
+}
+
+.form {
+    background: -moz-linear-gradient( 0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
+    background: -webkit-linear-gradient( 0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
+    background: -ms-linear-gradient( 0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
+    background: linear-gradient( 0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
+}
+textarea{
+    resize: none;
+    max-height: 246px;
+}
+.submit{
+    min-width: 70px;
+    min-height: 32px;
+    line-height: 1.2;
+}
+  

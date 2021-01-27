@@ -1,0 +1,91 @@
+// colors
+
+$theme-colors: (
+	"primary": #00cc99,
+	"secondary": #00a67d,
+    "dark": #333333,
+    "fb-blue": #4460a0,
+    "tw-blue": #00aaec,
+    "info": #e12d80,
+    "white": #ffffff
+);
+
+$navbar-dark-color: #ffffff;
+
+// shadow
+
+$box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+
+$font-size-base: 1rem*0.9375;
+$font-weight-bold: 500;
+$border-color: #dddddd;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 768px,
+  lg: 1000px,
+  xl: 1140px
+);
+
+// spacer
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),    // 4px
+    2: ($spacer * .5),     // 8px
+    3: ($spacer * .75),    // 12px
+    4: $spacer,            // 16px
+    5: ($spacer * 1.25),   // 20px
+	6: ($spacer * 1.5),    // 24px
+	7: ($spacer * 1.75),   // 28px
+    8: ($spacer * 1.875),  // 30px
+    9: ($spacer * 2),      // 32px
+    10: ($spacer * 2.25),  // 36px
+    11: ($spacer * 2.375), // 38px
+    12: ($spacer * 2.5),   // 40px
+    13: ($spacer * 3),     // 48px
+    14: ($spacer * 3.75),  // 60px
+);
+
+$input-height: 30px;
+$form-group-margin-bottom: 0.9375rem;
+$label-margin-bottom: 0rem;
+
+// card
+
+$card-spacer-x: 0;
+$card-border-color: transparent;
+$card-bg: transparent;
+$card-border-radius: 0;
+
+// headings
+$h1-font-size: 40px;
+$h2-font-size: 36px;
+$h3-font-size: 24px;
+$h4-font-size: 18px;
+
+$headings-line-height: 1.5;
+
+// header hex logo
+
+$logo-url: "../img/logo.png";
+$logo-width: 170px;
+$logo-height: 36px;
+
+// footer hex logo
+
+$footer-logo-url: "https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/footerLogo.png";
+$footer-logo-width: 171px;
+$footer-logo-height: 36px;
+
+// banner
+
+$banner-url: "https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png";
+$banner-width: 1000px;
+$banner-height: 346px;
+
+// HTML logo
+
+$HTML-logo-width: 121px;
+$HTML-logo-height: 139px;
