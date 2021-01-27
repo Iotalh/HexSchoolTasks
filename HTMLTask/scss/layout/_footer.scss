@@ -1,0 +1,9 @@
+footer {
+    h2 {
+        font-size: 1.2rem;
+        a {
+            @include hide-text;
+            @include background-image($footer-logo-url, $footer-logo-width, $footer-logo-height);
+        }
+    }
+}
