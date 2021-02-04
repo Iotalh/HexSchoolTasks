@@ -7,12 +7,12 @@
     background-color: rgba(2, 2, 2, 0.149);
 }
 
-.link-border {
+.link-divider {
     position: relative;
     z-index: 1;
 }
 
-.link-border::before {
+.link-divider::before {
     content: "";
     position: absolute;
     left: 100%;
@@ -30,19 +30,20 @@
     min-height: 140px;
 }
 
-.form {
-    background: -moz-linear-gradient( 0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
-    background: -webkit-linear-gradient( 0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
-    background: -ms-linear-gradient( 0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
-    background: linear-gradient( 0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
+.gradient-green {
+    background: -moz-linear-gradient(0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
+    background: -webkit-linear-gradient(0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
+    background: -ms-linear-gradient(0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
+    background: linear-gradient(0deg, rgb(0, 152, 114) 0%, rgb(0, 100, 75) 100%);
 }
-textarea{
+
+.msg-textarea {
     resize: none;
     max-height: 246px;
 }
-.submit{
+
+.submit {
     min-width: 70px;
     min-height: 32px;
     line-height: 1.2;
 }
-  
