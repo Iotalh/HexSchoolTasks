@@ -1,6 +1,7 @@
 .banner {
     margin: 0 auto;
-    @include background-image($banner-url, 100%, $banner-height, cover);
+    @include background-image($banner-url, cover);
+    height: $banner-height;
 }
 
 .banner-rect {
@@ -26,6 +27,10 @@
     min-height: 325px;
 }
 
+.card-text>ul {
+    list-style: disc;
+}
+
 .card-img-top {
     min-height: 140px;
 }
@@ -40,10 +45,4 @@
 .msg-textarea {
     resize: none;
     max-height: 246px;
-}
-
-.submit {
-    min-width: 70px;
-    min-height: 32px;
-    line-height: 1.2;
 }
