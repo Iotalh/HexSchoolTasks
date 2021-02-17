@@ -3,7 +3,9 @@ footer {
         font-size: 1.2rem;
         a {
             @include hide-text;
-            @include background-image($footer-logo-url, $footer-logo-width, $footer-logo-height);
+            @include background-image($footer-logo-url);
+            width: $footer-logo-width;
+            height: $footer-logo-height;
         }
     }
 }
